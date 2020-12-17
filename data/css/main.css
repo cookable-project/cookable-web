@@ -18,6 +18,10 @@ body {
   background-color: white;
 }
 
+body nav a:hover {
+    text-decoration: underline;
+}
+
 a {
   color: #26a0b3;
 }
@@ -50,6 +54,31 @@ h3 {
   font-family: "Open Sans";
 }
 
+table,
+th,
+td {
+  border: unset;
+  padding: unset;
+  border-spacing: unset;
+  text-align: left;
+  table-layout: fixed;
+}
+
+th {
+  color: #26a0b3;
+  padding: 10px 0px;
+}
+
+td {
+  font-size: 10pt;
+  padding: 5px 0px;
+}
+
+a.footer-link {
+  color: grey;
+}
+
+
 #outside {
   height: 100%;
   width: 100%;
@@ -65,39 +94,18 @@ h3 {
   vertical-align: middle;
 }
 
-.navbar {
-  width: 100%;
-  background-color: #ecf4f6;
-  text-align: left;
-  position: fixed;
-  overflow: hidden;
-  padding: 10px 0px;
-}
-
-.navbar-link {
-  text-transform: uppercase;
-  vertical-align: middle;
-  background-color: unset;
-  text-decoration: none;
-  border-style: unset;
-  padding: 0px 10px;
-  color: #26a0b3;
-  font-size: 15px;
-  border-radius: 0;
-}
-
-.logo-nav {
-  font-weight: bold;
-  padding-left: 15px;
-  font-size: 20px;
-  color: #26a0b3;
-  height: 30px;
-  vertical-align: middle;
-}
-
 .navbar-link:hover {
   text-decoration: underline;
 }
+
+.logo-nav {
+    font-weight: bold;
+    padding-left: 15px;
+    font-size: 20px;
+    color: #26a0b3;
+    height: 30px;
+    vertical-align: middle;
+  }
 
 .logo {
   font-size: 50pt;
@@ -136,42 +144,20 @@ h3 {
   font-weight: bold;
 }
 
-table,
-th,
-td {
-  border: unset;
-  padding: unset;
-  border-spacing: unset;
-  text-align: left;
-  table-layout: fixed;
-}
-
-th {
-  color: #26a0b3;
-  padding: 10px 0px;
-}
-
-td {
-  font-size: 10pt;
-  padding: 5px 0px;
-}
-
-a.footer-link {
-  color: grey;
-}
-
 .footer {
-  background-color: #ecf4f6;
-  bottom: 0;
-  position: relative;
-  padding-top: 50px;
-  padding-bottom: 40px;
-  padding-left: 50px;
+    background-color: #ecf4f6;
+    bottom: 0;
+    position: relative;
+    padding-top: 50px;
+    padding-bottom: 40px;
+    padding-left: unset;
 }
 
 .footer table {
   margin: auto;
   width: 600px;
+  background-color: #ecf4f6;
+
 }
 
 .button {
@@ -188,66 +174,78 @@ a.footer-link {
 }
 
 @media only screen and (max-width: 800px) {
-  .border {
-    width: unset;
-    padding: 110px 30px 20px 30px;
+    .border {
+      width: unset;
+      padding: 110px 30px 20px 30px;
+    }
+  
+    .navbar-link {
+      display: list-item;
+      padding: 10px 20px;
+    }
+  
+    h1 {
+      font-size: 20pt;
+    }
+  
+    h2 {
+      font-size: 18pt;
+    }
+  
+    h3 {
+      font-size: 16pt;
+    }
+  
+    .footer table {
+      margin: auto;
+      width: 100vw;
+    }
+  
+    .footer {
+      background-color: #ecf4f6;
+      bottom: 0;
+      position: relative;
+      padding: 30px 0px 30px 30px;
+      overflow: hidden;
+    }
+  
+    .footer table {
+        width: 100vw;
+    }
   }
-
-  .navbar-link {
-    display: list-item;
-    padding: 10px 20px;
+  
+  @media only screen and (min-width: 1920px) {
+    * {
+      zoom: 1.05;
+    }
   }
-
-  h1 {
-    font-size: 20pt;
-  }
-
-  h2 {
-    font-size: 18pt;
-  }
-
-  h3 {
-    font-size: 16pt;
-  }
-
+  
+  @media only screen and (max-width: 500px) {
+  
   .logo {
-    width: fit-content;
+      font-size: 50pt;
+      font-weight: bolder;
+      letter-spacing: -2px;
+      width: 90vw;
+      padding: unset;
+      padding-bottom: 5px;
+      position: inherit;
+      margin: auto;
+    }
+  
+    nav a {display: block; margin-bottom: 10px; margin-top: 5px; margin-left: 5px;}
+
+    .logo-nav {
+        font-weight: bold;
+        padding-left: 10px;
+        font-size: 14pt;
+        color: #26a0b3;
+        height: 30px;
+        vertical-align: middle;
+        margin-bottom: unset;
+      }
   }
-
-  .footer table {
-    margin: auto;
-    width: 100vw;
-  }
-
-  .footer {
-    background-color: #ecf4f6;
-    width: 100vw;
-    bottom: 0;
-    position: relative;
-    padding-top: 50px;
-    padding-bottom: 40px;
-    padding-left: 50px;
-  }
-}
-
-.outline {
-    text-align: center;
-    background-color: white;
-    color: black;
-    margin: 0px 150px;
-    padding: 15px;
-    margin-bottom: 10px;
-    border-radius: 10px;
-    border-style: solid;
-    border-color: #26a0b3;
-    border-width: 3px;}
-
-@media only screen and (min-width: 1920px) {
-  * {
-    zoom: 1.05;
-  }
-}
-
+  
 nav {
     width: 100%;
     background-color: #ecf4f6;
