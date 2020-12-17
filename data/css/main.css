@@ -1,235 +1,237 @@
 * {
-    -webkit-appearance: none;
-    font-family: sans-serif;
-    margin: unset;
-    padding: unset;
-    outline: none;
+  -webkit-appearance: none;
+  font-family: sans-serif;
+  margin: unset;
+  padding: unset;
+  outline: none;
 }
 
 html {
-    height: 100%;
-    width: 100%;
+  height: 100%;
+  width: 100%;
 }
 
 body {
-    height: 100vh;
-    width: 100%;
-    margin: unset;
-    background-color: white;
+  height: 100vh;
+  width: 100%;
+  margin: unset;
+  background-color: white;
 }
 
 a {
-    color: #26a0b3;
+  color: #26a0b3;
 }
 
 p {
-    padding-bottom: 12pt;
-    padding-top: 6pt;
+  padding-bottom: 12pt;
+  padding-top: 6pt;
 }
 
 h1 {
-    font-size: 24pt;
-    padding-bottom: 12pt;
-    padding-top: 75px;
-    color: #26a0b3;
-    font-family: "Open Sans";
-    letter-spacing: -1.5px;
+  font-size: 24pt;
+  padding-bottom: 12pt;
+  padding-top: 75px;
+  color: #26a0b3;
+  font-family: "Open Sans";
+  letter-spacing: -1.5px;
 }
 
 h2 {
-    font-size: 18pt;
-    padding-bottom: 12pt;
-    color: #26a0b3;
-    font-family: "Open Sans";
+  font-size: 18pt;
+  padding-bottom: 12pt;
+  color: #26a0b3;
+  font-family: "Open Sans";
 }
 
 h3 {
-    font-size: 14pt;
-    padding-bottom: 12pt;
-    color: #26a0b3;
-    font-family: "Open Sans";
+  font-size: 14pt;
+  padding-bottom: 12pt;
+  color: #26a0b3;
+  font-family: "Open Sans";
 }
 
 #outside {
-    height: 100%;
-    width: 100%;
-    display: table;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 110vh;
+  height: 100%;
+  width: 100%;
+  display: table;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 110vh;
 }
 
 #inside {
-    display: table-cell;
-    text-align: center;
-    vertical-align: middle;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
 }
 
 .navbar {
-    width: 100%;
-    background-color: #ecf4f6;
-    text-align: left;
-    position: fixed;
-    overflow: hidden;
-    padding: 10px 0px;
+  width: 100%;
+  background-color: #ecf4f6;
+  text-align: left;
+  position: fixed;
+  overflow: hidden;
+  padding: 10px 0px;
 }
 
 .navbar-link {
-    text-transform: uppercase;
-    vertical-align: middle;
-    background-color: unset;
-    text-decoration: none;
-    border-style: unset;
-    padding: 0px 10px;
-    color: #26a0b3;
-    font-size: 15px;
-    border-radius: 0;
+  text-transform: uppercase;
+  vertical-align: middle;
+  background-color: unset;
+  text-decoration: none;
+  border-style: unset;
+  padding: 0px 10px;
+  color: #26a0b3;
+  font-size: 15px;
+  border-radius: 0;
 }
 
 .logo-nav {
-    font-weight: bold;
-    padding-left: 15px;
-    font-size: 20px;
-    color: #26a0b3;
-    height: 30px;
-    vertical-align: middle;
+  font-weight: bold;
+  padding-left: 15px;
+  font-size: 20px;
+  color: #26a0b3;
+  height: 30px;
+  vertical-align: middle;
 }
 
 .navbar-link:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .logo {
-    font-size: 50pt;
-    font-weight: bolder;
-    letter-spacing: -2px;
-    width: 400px;
-    padding: unset;
-    padding-bottom: 5px;
-    position: inherit;
-    margin: auto;
+  font-size: 50pt;
+  font-weight: bolder;
+  letter-spacing: -2px;
+  width: 400px;
+  padding: unset;
+  padding-bottom: 5px;
+  position: inherit;
+  margin: auto;
 }
 
 .text {
-    font-size: 14pt;
-    font-weight: bold;
-    color: #26a0b3;
+  font-size: 14pt;
+  font-weight: bold;
+  color: #26a0b3;
 }
 
 .border {
-    display: table;
-    margin: auto;
-    width: 650px;
-    padding: 20px 50px;
-    background: unset;
-    height: 100vh;
-    padding-bottom: 100px;
+  display: table;
+  margin: auto;
+  width: 650px;
+  padding: 20px 50px;
+  background: unset;
+  height: 90vh;
+  padding-bottom: 100px;
 }
 
 .border p {
-    line-height: 1.4;
-    font-size: 13pt;
-    font-family: "Roboto";
+  line-height: 1.4;
+  font-size: 13pt;
+  font-family: "Roboto";
 }
 
 .bold {
-    font-weight: bold;
+  font-weight: bold;
 }
 
-table, th, td {
-    border: unset;
-    padding: unset;
-    border-spacing: unset;
-    text-align: left;
-    table-layout: fixed;
+table,
+th,
+td {
+  border: unset;
+  padding: unset;
+  border-spacing: unset;
+  text-align: left;
+  table-layout: fixed;
 }
 
 th {
-    color: #26a0b3;
-    padding: 10px 0px;
+  color: #26a0b3;
+  padding: 10px 0px;
 }
 
 td {
-    font-size: 10pt;
-    padding: 5px 0px;
+  font-size: 10pt;
+  padding: 5px 0px;
 }
 
 a.footer-link {
-    color: grey;
+  color: grey;
 }
 
 .footer {
+  background-color: #ecf4f6;
+  bottom: 0;
+  position: relative;
+  padding-top: 50px;
+  padding-bottom: 40px;
+  padding-left: 50px;
+}
+
+.footer table {
+  margin: auto;
+  width: 600px;
+}
+
+.button {
+  color: #26a0b3;
+  background-color: unset;
+  border: unset;
+  font-size: 16px;
+  padding: 8px 30px;
+  border-radius: 15px;
+  border-color: #26a0b3;
+  border-style: solid;
+  font-weight: normal;
+  border-width: 3px;
+}
+
+@media only screen and (max-width: 800px) {
+  .border {
+    width: unset;
+    padding: 110px 30px 20px 30px;
+  }
+
+  .navbar-link {
+    display: list-item;
+    padding: 10px 20px;
+  }
+
+  h1 {
+    font-size: 20pt;
+  }
+
+  h2 {
+    font-size: 18pt;
+  }
+
+  h3 {
+    font-size: 16pt;
+  }
+
+  .logo {
+    width: fit-content;
+  }
+
+  .footer table {
+    margin: auto;
+    width: 100vw;
+  }
+
+  .footer {
     background-color: #ecf4f6;
+    width: 100vw;
     bottom: 0;
     position: relative;
     padding-top: 50px;
     padding-bottom: 40px;
     padding-left: 50px;
-}
-
-.footer table {
-    margin: auto;
-    width: 600px;
-}
-
-.button {
-    color: #26a0b3;
-    background-color: unset;
-    border: unset;
-    font-size: 16px;
-    padding: 8px 30px;
-    border-radius: 15px;
-    border-color: #26a0b3;
-    border-style: solid;
-    font-weight: normal;
-    border-width: 3px;
-}
-
-@media only screen and (max-width: 800px) {
-    .border {
-        width: unset;
-        padding: 110px 30px 20px 30px;
-    }
-
-    .navbar-link {
-        display: list-item;
-        padding: 10px 20px;
-    }
-
-    h1 {
-        font-size: 20pt;
-    }
-
-    h2 {
-        font-size: 18pt;
-    }
-
-    h3 {
-        font-size: 16pt;
-    }
-
-    .logo {
-        width: fit-content;
-    }
-
-    .footer table {
-        margin: auto;
-        width: 100vw;
-    }
-
-    .footer {
-        background-color: #ecf4f6;
-        width: 100vw;
-        bottom: 0;
-        position: relative;
-        padding-top: 50px;
-        padding-bottom: 40px;
-        padding-left: 50px;
-    }
+  }
 }
 
 @media only screen and (min-width: 1920px) {
-    * {
-        zoom: 1.05;
-    }
+  * {
+    zoom: 1.05;
+  }
 }
