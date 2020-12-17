@@ -247,3 +247,24 @@ a.footer-link {
     zoom: 1.05;
   }
 }
+
+nav {
+    width: 100%;
+    background-color: #ecf4f6;
+    text-align: left;
+    position: fixed;
+    overflow: hidden;
+    padding: 10px 0px;
+  }
+  
+  nav a {
+    text-transform: uppercase;
+    vertical-align: middle;
+    background-color: unset;
+    text-decoration: none;
+    border-style: unset;
+    padding: 0px 10px;
+    color: #26a0b3;
+    font-size: 15px;
+    border-radius: 0;
+  }
