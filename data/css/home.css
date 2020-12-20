@@ -50,19 +50,24 @@ h3 {
   font-family: "Open Sans";
 }
 
-#outside {
-  height: 100%;
-  width: 100%;
-  display: table;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 110vh;
-}
-
-#inside {
+.center {
+  height: 100vh;
+  width: 100vw;
   display: table-cell;
   text-align: center;
   vertical-align: middle;
+  background-color: #ecf4f6
+}
+
+.center img {
+  font-size: 50pt;
+  font-weight: bolder;
+  letter-spacing: -2px;
+  max-width: 400px;
+  padding: unset;
+  padding-bottom: 5px;
+  position: inherit;
+  margin: auto;
 }
 
 body nav {
@@ -103,17 +108,6 @@ body nav a:hover {
   text-decoration: underline;
 }
 
-.logo {
-  font-size: 50pt;
-  font-weight: bolder;
-  letter-spacing: -2px;
-  width: 400px;
-  padding: unset;
-  padding-bottom: 5px;
-  position: inherit;
-  margin: auto;
-}
-
 .text {
   font-size: 14pt;
   font-weight: bold;
@@ -123,7 +117,7 @@ body nav a:hover {
 .border {
   display: table;
   margin: auto;
-  width: 650px;
+  max-width: 650px;
   padding: 20px 50px;
   background: unset;
   height: 100vh;
@@ -192,7 +186,6 @@ a.footer-link {
 
 @media only screen and (max-width: 800px) {
   .border {
-    width: unset;
     padding: 110px 30px 20px 30px;
   }
 
