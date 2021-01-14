@@ -70,44 +70,6 @@ h3 {
   margin: auto;
 }
 
-body nav {
-  width: 100vw;
-  background-color: #ecf4f6;
-  text-align: left;
-  position: fixed;
-  overflow: hidden;
-  padding: 10px 0px;
-}
-
-body nav a {
-  text-transform: uppercase;
-  vertical-align: middle;
-  background-color: unset;
-  text-decoration: none;
-  border-style: unset;
-  padding: 0px 10px;
-  color: #26a0b3;
-  font-size: 15px;
-  border-radius: 0;
-}
-
-body nav a:hover {
-    text-decoration: underline;
-}
-
-.logo-nav {
-  font-weight: bold;
-  padding-left: 15px;
-  font-size: 20px;
-  color: #26a0b3;
-  height: 30px;
-  vertical-align: middle;
-}
-
-.navbar-link:hover {
-  text-decoration: underline;
-}
-
 .text {
   font-size: 14pt;
   font-weight: bold;
@@ -158,7 +120,7 @@ a.footer-link {
 }
 
 .footer {
-  background-color: white;
+  background-color: #ecf4f6;
   bottom: 0;
   position: relative;
   padding-top: 50px;
@@ -189,11 +151,6 @@ a.footer-link {
     padding: 110px 30px 20px 30px;
   }
 
-  .navbar-link {
-    display: list-item;
-    padding: 10px 20px;
-  }
-
   h1 {
     font-size: 20pt;
   }
@@ -221,6 +178,7 @@ a.footer-link {
 
   .footer table {
       width: 100vw;
+      margin: auto;
   }
 }
 
@@ -243,9 +201,6 @@ a.footer-link {
     margin: auto;
   }
 
-  nav a {display: block; margin-bottom: 10px; margin-top: 5px; margin-left: 5px;}
-}
-
 .abschnitt1 {
     margin: unset; 
     background-color: white;
@@ -263,4 +218,4 @@ a.footer-link {
 .abschnitt1-text p {
     text-align: center; 
     padding: 5px 0px;    
-}
+}}
