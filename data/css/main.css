@@ -1,160 +1,17 @@
-* {
-  -webkit-appearance: none;
-  font-family: sans-serif;
-  margin: unset;
-  padding: unset;
-  outline: none;
-}
-
-html {
-  height: 100%;
-  width: 100%;
-}
-
 body {
-  height: 100vh;
-  width: 100%;
-  margin: unset;
   background-color: white;
 }
 
-a {
-  color: #26a0b3;
-}
-
-p {
-  padding-bottom: 12pt;
-  padding-top: 6pt;
-}
-
-h1 {
-  font-size: 24pt;
-  padding-bottom: 12pt;
-  padding-top: 75px;
-  color: #26a0b3;
-  font-family: "Open Sans";
-  letter-spacing: -1.5px;
-}
-
-h2 {
-  font-size: 18pt;
-  padding-bottom: 12pt;
-  color: #26a0b3;
-  font-family: "Open Sans";
-}
-
-h3 {
-  font-size: 14pt;
-  padding-bottom: 12pt;
-  color: #26a0b3;
-  font-family: "Open Sans";
-}
-
-table,
-th,
-td {
-  border: unset;
-  padding: unset;
-  border-spacing: unset;
-  text-align: left;
-  table-layout: fixed;
-}
-
-th {
-  color: #26a0b3;
-  padding: 10px 0px;
-}
-
-td {
-  font-size: 10pt;
-  padding: 5px 0px;
-}
-
-a.footer-link {
-  color: grey;
-}
-
-
-#outside {
-  height: 100%;
-  width: 100%;
-  display: table;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 110vh;
-}
-
-#inside {
-  display: table-cell;
-  text-align: center;
-  vertical-align: middle;
-}
-
-.logo {
-  font-size: 50pt;
-  font-weight: bolder;
-  letter-spacing: -2px;
-  width: 400px;
-  padding: unset;
-  padding-bottom: 5px;
-  position: inherit;
-  margin: auto;
-}
-
-.text {
-  font-size: 14pt;
-  font-weight: bold;
-  color: #26a0b3;
-}
 
 .border {
-  display: table;
-  margin: auto;
-  width: 650px;
-  padding: 20px 50px;
-  background: unset;
   height: 90vh;
   padding-bottom: 100px;
 }
 
-.border p {
-  line-height: 1.4;
-  font-size: 13pt;
-  font-family: "Roboto";
-}
-
-.bold {
-  font-weight: bold;
-}
-
-.footer {
-    background-color: #ecf4f6;
-    bottom: 0;
-    position: relative;
-    padding-top: 50px;
-    padding-bottom: 40px;
-    padding-left: unset;
-}
-
 .footer table {
-  margin: auto;
-  width: 600px;
   background-color: #ecf4f6;
-
 }
 
-.button {
-  color: #26a0b3;
-  background-color: unset;
-  border: unset;
-  font-size: 16px;
-  padding: 8px 30px;
-  border-radius: 15px;
-  border-color: #26a0b3;
-  border-style: solid;
-  font-weight: normal;
-  border-width: 3px;
-}
 
 @media only screen and (max-width: 800px) {
     .border {
