@@ -118,6 +118,10 @@ td {
   font-family: "Roboto";
 }
 
+.app-gallery {display: inline-block; text-align: center;}
+
+.app-gallery img {width: 30%; margin: 0px 5px;}
+
   @media only screen and (min-width: 1920px) {
     * {
       zoom: 1.05;
@@ -157,6 +161,7 @@ td {
     .footer table {
         width: 100vw;
     }
+
   }
 
   @media only screen and (max-width: 500px) {
@@ -189,6 +194,11 @@ td {
     .abschnitt1-text p {
         text-align: center; 
         padding: 5px 0px;    
-    }}
+    }
+  
+    .app-gallery img {
+      display: block; width: 100%; margin: 20px 0px;
+    }
+  }
 
     a:hover {color: #1e6b77;}
